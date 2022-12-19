@@ -1,0 +1,239 @@
+body{
+    background-image: url(./MEDIA/shara\ desert.jpg);
+    background-size: cover;
+}
+nav{
+    display:block;
+}
+li{
+    display:inline-block
+}
+.menu{
+    word-spacing: 50px;
+    position: absolute;
+    right: 60px;
+}
+li >img{
+    position: absolute;
+    right:50px;
+}
+.logo >img{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 300px 300px;
+    text-align: center;
+    grid-gap: 50px;
+    text-decoration-color: azure;
+    position: relative;
+    left: 800px;
+    top: 100px;
+    transition: height 1s;
+
+}
+.western{
+    transition-timing-function: linear;
+    background-image: url(./MEDIA/pic-1.png);
+    background-size: cover;
+    border-radius: 10px;
+    color:rgb(31, 120, 145);
+}
+.western:hover{
+    height:250px;
+}
+.ai{
+background-image:url(./MEDIA/pic-2.png);
+background-size: cover;
+    border-radius: 10px;
+    color:rgb(32, 130, 172);
+}
+.ai:hover{
+    height:250px;
+}
+.pyramid{
+    background-image:url(./MEDIA/pic-3.png);
+    background-size: cover;
+    background-size: 200px;
+    border-radius: 10px;
+    color:rgb(27, 135, 174);
+}
+.pyramid:hover{
+    height: 250px;
+}
+.kalahari{
+    background-image:url(./MEDIA/pic-4.png);
+    background-size: cover;
+    background-size: 200px;
+    border-radius: 10px;
+    color:rgb(46, 133, 173);
+
+}
+.kalahari:hover{
+    height:250px;
+}
+.sahara{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    display: block;
+    width: 500px;
+    color: white;
+}
+h1{
+    font-size: 100px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+span{
+    width: 500px;
+    height: 50px;
+    border: 10px solid white;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    position: relative;
+    top: 50px;
+}
+.sahara >p{
+    position: absolute;
+    top: 170px;
+}
+@media (min-width:250px) and (max-width:856px){
+    nav{
+        display:block;
+    }
+    li{
+        display:inline-block
+    }
+    .menu{
+        word-spacing: 50px;
+        position: absolute;
+        right: 60px;
+    }
+    li >img{
+        position: absolute;
+        right:50px;
+    }
+    .logo >img{
+        width: 50px;
+        height: 40px;
+        position: absolute;
+        top: 40px;
+        left: 100px;
+       
+    }
+    .container{
+        display: block;
+        /* grid-template-columns: 250px 250px; */
+        /* grid-template-rows: 300px 300px; */
+        text-align: center;
+        /* grid-gap: 50px; */
+        text-decoration-color: azure;
+        position: relative;
+        left: 372px;
+        top: 300px;
+        transition: height 1s;
+    
+    }
+    .western{
+        width: 500px;
+        height: 300px;
+        transition-timing-function: linear;
+        background-image: url(./MEDIA/pic-1.png);
+        background-size: cover;
+        background-repeat: round;
+        border-radius: 10px;
+        color: rgb(242, 245, 245);
+        position: absolute;
+        right: 500px;
+    }
+    .western:hover{
+        height:350px;
+    }
+    .ai{
+        width:500px;
+        height:300px;
+        transition-timing-function: linear;
+      background-image:url(./MEDIA/pic-2.png);
+     background-size: cover;
+        border-radius: 10px;
+        color:rgb(237, 242, 244);
+        position: absolute;
+        right: 500px;
+        top:350px;
+    }
+    .ai:hover{
+        height:300px;
+    }
+    .pyramid{
+        width:500px;
+        height:300px;
+        transition-timing-function: linear;
+        background-image:url(./MEDIA/pic-3.png);
+        background-size: cover;
+        border-radius: 10px;
+        color:rgb(242, 246, 247);
+        position: absolute;
+        right: 500px;
+        top:700px;
+    }
+    .pyramid:hover{
+        height: 400px;
+    }
+    .kalahari{
+        width:500px;
+        height:300px;
+        transition-timing-function: linear;
+        background-image:url(./MEDIA/pic-4.png);
+        background-size: cover;
+        background-repeat: round;
+        border-radius: 10px;
+        color:rgb(242, 246, 247);
+        position: absolute;
+        right: 500px;
+        top:1050px;
+    
+    }
+    .kalahari:hover{
+        height:350px;
+    }
+    .sahara{
+        position: absolute;
+        top: 10px;
+        left: 100px;
+        display: block;
+        width: 500px;
+        color: white;
+    }
+    h1{
+        font-size: 100px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    span{
+        width: 500px;
+        height: 50px;
+        border: 10px solid white;
+        border-radius: 25px;
+        color: black;
+        background-color: white;
+        position: relative;
+        top: 50px;
+    }
+    .sahara >p{
+        position: absolute;
+        top: 170px;
+    }
+
+}
